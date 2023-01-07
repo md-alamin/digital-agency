@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(213, 210, 210);
+    align-items: center;
+    padding: 15px 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-pic {
+    width: 200px;
+}
+
+.logo-b {
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.item {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Banner Top */
+.bannner-top {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.438),
+            rgba(0, 0, 0, 0.438)
+        ),
+        url(../asset/image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-container {
+    text-align: center;
+    color: white;
+}
+
+span {
+    color: rgb(245, 44, 44);
+}
+
+.bt-head {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.bt-text {
+    margin: 20px 25%;
+    font-size: 24px;
+}
+
+.btn-primary {
+    background: rgb(245, 44, 44);
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background: white;
+    color: rgb(245, 44, 44);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
