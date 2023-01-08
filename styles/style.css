@@ -37,7 +37,7 @@ nav {
     gap: 10px;
 }
 
-li {
+nav li {
     list-style: none;
 }
 
@@ -96,4 +96,93 @@ span {
     padding: 10px 30px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+/* Services Part */
+
+.services {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgb(0, 0, 0.95)),
+        url(../asset/image/footer-bg.png);
+    color: white;
+    height: 100vh;
+    align-items: center;
+    gap: 100px;
+}
+
+.services-text {
+    margin-left: 40px;
+}
+
+.services-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.services-text ul {
+    margin-left: 15px;
+    list-style: decimal;
+    margin-bottom: 20px;
+}
+
+.ceo {
+    display: flex;
+}
+
+.ceo-info {
+    margin: auto 10px;
+    padding-right: 100px;
+}
+
+.ceo-image img {
+    width: 65px;
+}
+
+.info {
+    border-right: 2px solid rgb(245, 44, 44);
+}
+
+.info-btn {
+    margin: auto 20px;
+}
+
+.details-btn {
+    padding: 20px 30px;
+    color: rgb(245, 44, 44);
+    border-radius: 30px;
+    width: max-content;
+}
+
+.services-icons1 {
+    display: flex;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+}
+
+.services-icon img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.services-icon {
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+.services-icon h3 {
+    color: #000;
+    width: 200px;
+    height: 44px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.services-icons {
+    text-align: center;
+    margin-right: 40px;
 }
