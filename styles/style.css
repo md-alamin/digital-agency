@@ -186,3 +186,28 @@ span {
     text-align: center;
     margin-right: 40px;
 }
+
+.call {
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(245, 44, 44);
+    position: absolute;
+    left: 10%;
+    bottom: -15vh;
+    border-radius: 20px;
+    color: white;
+}
+.services-container {
+    position: relative;
+}
+
+.call-icon img {
+    width: 100px;
+}
+
+.call .details-btn {
+    color: #000;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
